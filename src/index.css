@@ -1,13 +1,101 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.nav_style {
+    width: 100%;
+    line-height: 50px;
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-around;
+}
+.active_nav {
+    margin: 10px;
+    color: white;
+    text-decoration: none !important;
+    font-size: 20px;
+    font-weight: 500;
+}
+.active_nav:hover {
+    color: white;
+    opacity: 0.9;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px 5px rgba(214, 213, 213, 0.3);
+    padding: 20px;
+    margin-top: 20px;
+}
+.login-heading {
+    text-align: center;
+    color: chocolate;
+}
+.login-input {
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 3px 3px rgba(214, 213, 213, 0.3);
+    padding: 10px;
+}
+.login-btn {
+    margin-top: 20px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgba(210, 105, 30, 1);
+    color: white;
+    font-weight: 500;
+}
+.login-btn:hover {
+    opacity: 0.8;
+}
+.new-acc {
+    margin-top: 10px;
+    margin-right: 7px;
+    text-align: end;
+    font-weight: 500;
+    color: #d2691e;
+}
+.social-btn {
+    margin-top: 50px;
+}
+.gbtn {
+    border-radius: 5px;
+    border: 1px solid rgb(189, 185, 185);
+    outline: none;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+.gbtn:hover {
+    opacity: 0.8;
+}
+.fbtn {
+    border-radius: 5px;
+    border: 1px solid #4267b2;
+    outline: none;
+    background-color: #4267b2;
+    color: white;
+    padding: 5px 10px;
+}
+.fbtn:hover {
+    opacity: 0.8;
 }

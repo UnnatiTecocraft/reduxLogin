@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullname": "abc",
+      "username": "abc01",
+      "password": "Abc01",
+      "con_pwd": "Abc01"
+    },
+    {
+      "id": 2,
+      "fullname": "xyz",
+      "username": "xyz02",
+      "password": "Xyz02",
+      "con_pwd": "Xyz02"
+    },
+    {
+      "fullname": "Unnati Shah",
+      "username": "unnati",
+      "password": "123456",
+      "con_pwd": "123456",
+      "id": 3
+    }
+  ]
+}
